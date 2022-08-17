@@ -49,7 +49,7 @@ export class ProductsListComponent implements OnInit{
     ];
 
     ngOnInit(): void {
-      this.listFilter = 'cart';
+      this.listFilter = '';
     }
 
     toggleImage(){
@@ -59,5 +59,9 @@ export class ProductsListComponent implements OnInit{
     performFilter(): IProduct[] {
       return this.products.filter((product: IProduct) =>
           product.productName.toLocaleLowerCase().includes(this.listFilter.toLocaleLowerCase()));
+    }
+
+    onRatingClicked(message: string): void {
+      window.alert(message);
     }
 }
