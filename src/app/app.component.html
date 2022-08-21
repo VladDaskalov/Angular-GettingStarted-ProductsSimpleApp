@@ -1,4 +1,15 @@
-<div>
-  <h1>{{title}}!!</h1>
-  <pm-products></pm-products>
+<nav class='navbar navbar-expand navbar-light bg-light'>
+  <a class='navbar-brand'
+     [routerLink]="['/']">
+    {{title}}
+  </a>
+  <ul class='nav nav-pills'>
+    <li><a class='nav-link'
+         routerLink='/welcome'>Home</a></li> <!-- Short routerLink syntax -->
+    <li><a class='nav-link'
+         [routerLink]="['/products']">Products List</a></li> <!-- RouterLink syntax to send array of parameters -->
+  </ul>
+</nav>
+<div class='container'>
+  <router-outlet></router-outlet>
 </div>
