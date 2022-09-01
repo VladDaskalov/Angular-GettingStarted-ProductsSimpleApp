@@ -1,6 +1,9 @@
-# Apm
+# Product Management Simple Application
+## General Summary
+Created during the course: [Angular - Getting Started](https://app.pluralsight.com/library/courses/angular-2-getting-started-update) by Deborah Kurata.
+The app skeleton was taken from the Deborah Kurata repository: [Angular - Getting started](https://github.com/DeborahK/Angular-GettingStarted).
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+The project was initially generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
 
 ## Development server
 
